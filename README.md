@@ -15,10 +15,11 @@ presently i've completed the below
 - updated the package.json file to include the necessary tree-sitter syntax
 - updated the package.json to the latest versions of the packages / modules defined within
 - can successfully run `tree-sitter generate` without seeing any errors be rendered to STDOUT
+- with the latest commit the cmd `npm run build` should _just work™️_
 
 ### todos
 
-- [ ] i'm getting error running the below command,
+- [x] ~~i'm getting error running the below command,~~
     `node-gyp build`
 
 

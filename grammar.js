@@ -218,7 +218,7 @@ module.exports = grammar({
 
     _string: $ => seq(
       '"',
-      repeat($._escape, $._safecodepoint),
+      repeat(seq($._escape, $._safecodepoint)),
       '"'
     ),
 
